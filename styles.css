@@ -45,7 +45,8 @@ nav .container {
 
 .hero {
   background-color: #212121;
-  height: 400px;
+  min-height: 400px;
+  display: flex;
 }
 
 h1,
@@ -66,6 +67,7 @@ p {
   justify-content: center;
 }
 .hero > .container {
+  flex: 1;
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -73,4 +75,95 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 16px;
+  flex-wrap: wrap;
 }
+
+.phrase-signup {
+  display: flex;
+  flex-basis: 400px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.phrase-signup > h1 {
+  font-size: 48px;
+}
+.phrase-signup p {
+  font-size: 18px;
+  color: #cecdcd;
+}
+
+.signup {
+  padding: 8px 32px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+.content-one {
+  /* background-color: #212121; */
+  min-height: 400px;
+  display: flex;
+}
+
+.container-one {
+  flex: 1;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card-title {
+  color: #212121;
+}
+.cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.box {
+  height: 200px;
+  width: 100%;
+  /* background-color: #cecdcd; */
+  border: 2px solid #212121;
+  border-radius: 1rem;
+}
+.card > p {
+  width: 100%;
+  text-align: center;
+  color: #212121;
+}
+.quote {
+  background-color: #212121;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote > .container {
+  flex: 1;
+  max-width: 1200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

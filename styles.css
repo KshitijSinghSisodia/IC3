@@ -76,6 +76,7 @@ p {
   justify-content: space-between;
   padding: 16px;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .phrase-signup {
@@ -97,6 +98,7 @@ p {
 .signup {
   padding: 8px 32px;
   font-size: 20px;
+  font-weight: 600;
   border-radius: 10px;
   background-color: #e0e0e0;
 }
@@ -166,4 +168,55 @@ p {
   justify-content: center;
 }
 
+.bottom {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.text > h2,
+p {
+  color: #212121;
+}
+.card-big {
+  background-color: #212121;
+  max-width: 1200px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 100px;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-radius: 5px;
+  min-height: 150px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.text > h2,
+p {
+  color: #cecdcd;
+}
+.explore {
+  padding: 5px 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.end {
+  height: 60px;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end > h3 {
+  font-size: small;
+}
